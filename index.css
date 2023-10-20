@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: rgb;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid rgb(231, 228, 228);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(219, 14, 14, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pizza-item {
+  margin-bottom: 20px;
+  border: 1px solid #D3D3D3;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #160804;
+}
+
+/* Efeitos de hover para os itens */
+.pizza-item:hover {
+  background-color: #eec821;
+  box-shadow: 0 2px 5px rgba(230, 8, 8, 0.2);
+  transform: scale(1.02);
+  transition: 0.3s;
+}
